@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/7.17.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.17.2/firebase-database.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="https://www.gstatic.com/firebasejs/7.17.2/firebase-analytics.js"></script>
+
+    <script>
+        // Your web app's Firebase configuration
+        var firebaseConfig = {
+            apiKey: "AIzaSyBKpbiOgJNb24EQasZc6w7zAxtnjNxFEkA",
+            authDomain: "muhammadhamzaanees-wm7685.firebaseapp.com",
+            databaseURL: "https://muhammadhamzaanees-wm7685.firebaseio.com",
+            projectId: "muhammadhamzaanees-wm7685",
+            storageBucket: "muhammadhamzaanees-wm7685.appspot.com",
+            messagingSenderId: "639240345032",
+            appId: "1:639240345032:web:799989623b5513ba739cfd",
+            measurementId: "G-B76FSX0E0H"
+        };
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
+        firebase.analytics();
+    </script>
+
+    <title>Quiz App</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="welcome_text">
+            <form class="welcome_form" name="welcome_form" onsubmit="submitForm(event)">
+                <input type="text" name="username" id="">
+                <button type="submit">Start Quiz</button>
+            </form>
+        </div>
+    </div>
+    <script src="scripts/script.js"></script>
+</body>
+
+</html>
