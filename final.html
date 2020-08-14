@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.14.0/css/all.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/7.17.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.17.2/firebase-database.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="https://www.gstatic.com/firebasejs/7.17.2/firebase-analytics.js"></script>
+
+    <script>
+        // Your web app's Firebase configuration
+        var firebaseConfig = {
+            apiKey: "AIzaSyBKpbiOgJNb24EQasZc6w7zAxtnjNxFEkA",
+            authDomain: "muhammadhamzaanees-wm7685.firebaseapp.com",
+            databaseURL: "https://muhammadhamzaanees-wm7685.firebaseio.com",
+            projectId: "muhammadhamzaanees-wm7685",
+            storageBucket: "muhammadhamzaanees-wm7685.appspot.com",
+            messagingSenderId: "639240345032",
+            appId: "1:639240345032:web:799989623b5513ba739cfd",
+            measurementId: "G-B76FSX0E0H"
+        };
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
+        firebase.analytics();
+    </script>
+
+    <title>Quiz App</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div>
+            <i class="fas fa-award award_icon"></i>
+            <h3 class="username">Excellent <span class="name"></span></h3>
+            <p class="user_points">Your Points <span class="points">0</span></p>
+            <p class="user_time">Time: <span class="time">0 Minutes and 0 Seconds</span></p>
+        </div>
+
+    </div>
+    <script src="scripts/script.js"></script>
+    <script src="scripts/user_info.js"></script>
+</body>
+
+</html>
